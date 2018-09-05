@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "Repeterende program";
+echo "Repeterende program"
+echo " "
 
-printf 'Kjor flere ganger\n%.0s' {1..5};
-
+for i in `seq $2`;
+   do
+   echo "$1"
+done
